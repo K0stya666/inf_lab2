@@ -31,10 +31,9 @@ tabl_r = [tabl[0],tabl[1],tabl[3]]
 tabl_i = [tabl[2], tabl[4], tabl[5], tabl[6]]
 
 num_arr = [x for x in num]
-ind = 0
 
 if s in tabl_r:
-    pass
+    ind = tabl.index(s)
 else:
     ind = tabl.index(s)
     if num_arr[ind] == '0':
